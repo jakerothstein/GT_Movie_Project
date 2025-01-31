@@ -1,27 +1,26 @@
-.bg-index{
-  background: url("/static/img/background.jpg") no-repeat
-    fixed;
+.bg-index {
+  background: url('/static/img/background.jpg') no-repeat fixed;
   background-size: 100% auto;
 }
 
 .navbar a.nav-link {
-  color: #FFFEF6 !important;
+  color: #fffef6 !important;
 }
 .bg-dark {
-  background-color: #2E2E2E !important;
+  background-color: #2e2e2e !important;
 }
 .ms-footer {
   background-color: #202020;
 }
 .ms-footer p {
-  color: #7F7F7F;
+  color: #7f7f7f;
   font-size: 13px;
 }
 .ms-footer a:hover {
   color: #6ab43e;
   text-decoration: none;
 }
-.ms-footer-bottom span{
+.ms-footer-bottom span {
   font-size: 13px;
   line-height: 38px;
 }
@@ -31,4 +30,13 @@
 }
 .ms-footer-bottom a:hover {
   color: #fff;
+}
+.img-card-200 {
+  width: fit-content;
+  max-height: 200px;
+}
+
+.img-card-400 {
+  width: fit-content;
+  max-height: 400px;
 }

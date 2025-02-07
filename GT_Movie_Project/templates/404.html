@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oops - Page Not Found</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Open Sans', sans-serif;
+            text-align: center;
+            background: #fff;
+        }
+
+        .wrapper {
+            position: relative;
+            padding: 20px;
+        }
+
+        .oops {
+            color: #4B4F4B;
+            font-size: 8em;
+            letter-spacing: 0.05em;
+            margin-top: 30px;
+        }
+
+        .info {
+            color: #4B4F4B;
+            padding: 5px;
+        }
+
+        .button {
+            display: inline-block;
+            background: #FF5659;
+            color: #fff;
+            text-transform: uppercase;
+            padding: 10px 40px;
+            border-radius: 50px;
+            transition: 150ms;
+            text-decoration: none;
+        }
+
+        .button:hover {
+            background: #FF2629;
+        }
+
+        .button:hover .fa-angle-left {
+            animation: test 700ms ease-out infinite;
+        }
+
+        @keyframes test {
+            to {
+                margin-right: 20px;
+            }
+        }
+
+        .fa-angle-left {
+            font-size: 1.2em;
+            margin-right: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <h1 class="oops">Oops</h1>
+        <p class="info">We couldn't find the page you were looking for.</p>
+        <br />
+        <a href="/" class="button"><i class="fa fa-angle-left"></i>Go Back</a>
+    </div>
+</body>
+</html>

@@ -37,4 +37,4 @@ jobs:
           python manage.py test
       - name: Run Linting
         run: |
-          flake8 .
+          black --check .
